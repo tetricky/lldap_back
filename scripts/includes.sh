@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ENV_FILE="/.env"
-BACKUP_DIR="/bitwarden/backup"
-RESTORE_DIR="/bitwarden/restore"
-RESTORE_EXTRACT_DIR="/bitwarden/extract"
+BACKUP_DIR="/lldap_back/backup"
+RESTORE_DIR="/lldap_back/restore"
+RESTORE_EXTRACT_DIR="/lldap_back/extract"
 
 #################### Function ####################
 ########################################
