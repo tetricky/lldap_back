@@ -1,6 +1,6 @@
-FROM alpine:3.14
+FROM alpine:3.16
 
-# Some code from:
+# Some concepts from:
 # vaultwarden backup
 # https://github.com/ttionya/vaultwarden-backup
 
