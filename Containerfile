@@ -1,8 +1,6 @@
 FROM alpine:3.16
 
-# Some concepts from:
-# vaultwarden backup
-# https://github.com/ttionya/vaultwarden-backup
+# Simple Backup container to dump lldap database
 
 LABEL "repository"="https://github.com/tetricky/lldap_back/" \
   "homepage"="https://github.com/tetricky/lldap_back/" \
