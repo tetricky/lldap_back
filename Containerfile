@@ -9,7 +9,7 @@ LABEL "repository"="https://github.com/tetricky/lldap_back/" \
 COPY scripts/*.sh /app/
 
 RUN chmod +x /app/*.sh \
-  && apk add --no-cache bash curl sqlite unzip \
+  && apk add --no-cache bash curl sqlite p7zip heirloom-mailx tzdata unzip go-sendxmpp \
   && curl https://rclone.org/install.sh | bash \
   && apk del curl unzip
 
