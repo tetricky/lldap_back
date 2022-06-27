@@ -1,6 +1,12 @@
 FROM alpine:3.16
 
-# Simple Backup container to dump lldap database
+
+# Code structure and logic largely from ttionya/vaultwarden-backup
+# https://github.com/ttionya/vaultwarden-backup
+
+# Written as simple backup container to dump lldap database
+# for nitnelave/lldap (but may be used for other sqlite databases)
+# https://github.com/nitnelave/lldap
 
 LABEL "repository"="https://github.com/tetricky/lldap_back/" \
   "homepage"="https://github.com/tetricky/lldap_back/" \
