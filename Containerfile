@@ -11,7 +11,8 @@ COPY scripts/*.sh /app/
 RUN chmod +x /app/*.sh \
   && apk add --no-cache bash curl sqlite p7zip heirloom-mailx tzdata unzip go-sendxmpp \
   && curl https://rclone.org/install.sh | bash \
-  && apk del curl unzip && rm -rf /var/cache/apk/*
+  && apk del curl unzip && rm -rf /var/cache/apk/* \
+  mkdir -p /lldap_back
 
 ENTRYPOINT ["/app/entrypoint.sh"]
 CMD ["cron", "0 1 * * *"]
