@@ -1,6 +1,5 @@
 FROM alpine:3.16
 
-
 # Code structure and logic largely from ttionya/vaultwarden-backup
 # https://github.com/ttionya/vaultwarden-backup
 
