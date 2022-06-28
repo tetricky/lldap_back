@@ -21,7 +21,7 @@ if [[ "$1" == "mail" ]]; then
         MAIL_TO="$2"
     fi
 
-    send_mail "vaultwarden Backup Test" "Your SMTP looks configured correctly."
+    send_mail "Backup Test" "SMTP configured correctly."
 
     exit 0
 fi
